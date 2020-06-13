@@ -1,0 +1,17 @@
+{
+  "name": "@hagnerd/genny",
+  "version": "0.0.1",
+  "description": "A no nonsense generator",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagnerd/genny.git"
+  },
+  "keywords": [],
+  "author": "Matt Hagner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hagnerd/genny/issues"
+  },
+  "homepage": "https://github.com/hagnerd/genny#readme"
+}
