@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git+https://github.com/hagnerd/genny.git"
   },
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore *.js",
+    "pretty": "prettier --ignore-path .gitignore \"**/*.(js|json)\"",
+    "format": "npm run pretty -- --write",
+    "validate": "npm run format && npm run lint"
+  },
   "keywords": [],
   "author": "Matt Hagner",
   "license": "MIT",
